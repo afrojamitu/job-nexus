@@ -15,7 +15,7 @@ const FeaturedJobs = ({feature}) => {
                     <button className='border border-indigo-400 text-indigo-500 font-semibold py-1 px-5 hover:scale-105' style={{transition: '.5s'}}>On-Site</button>
                 </div>
                 <div className='flex justify-between text-md my-3'>
-                <p className='flex gap-1 items-center'><MapPinIcon className="h-5 w-5 text-slate-600" />
+                <p className='flex gap-1 items-center'><MapPinIcon className="h-6 w-5 text-slate-600" />
                 {location}</p>
                 <p className='flex gap-1 items-center'><CurrencyDollarIcon className="h-5 w-5 text-slate-600" />
                     Salary: {salary}</p>
@@ -23,6 +23,8 @@ const FeaturedJobs = ({feature}) => {
 
                 <button className='bg-gradient-to-r from-indigo-500 to-purple-600 py-1 px-3 md:py-2 md:px-6 rounded text-white font-bold hover:scale-105' style={{transition: '.5s'}}>View Detail</button>
             </div>
+
+            
         </div>
     );
 };
