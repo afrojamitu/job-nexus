@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "logo": "https://icon-library.com/images/accounting-icon-png/accounting-icon-png-2.jpg",
+        "name": "Account & Finance",
+        "available_job": "300 Jobs Available"
+    },
+    {
+        "id": 2,
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaTpMQYrWyYH21Ga_cWUIfqa6PRtLm0cFu1bpCbxUxUA&s",
+        "name": "Creative Design",
+        "available_job": "100+ Jobs Available"
+    },
+    {
+        "id": 3,
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBTAR8uMnmVgqjJkpEKfD4TpUsYr9S3s2MfAZ6Nw96zcH8xgI6z3U5jCX8iRSp_Fsvthc&usqp=CAU",
+        "name": "Marketing & Sales",
+        "available_job": "150 Jobs Available"
+    },
+    {
+        "id": 4,
+        "logo": "https://cdn-icons-png.flaticon.com/512/1875/1875143.png",
+        "name": "Engineering Job",
+        "available_job": "224 Jobs Available"
+    }
+]
