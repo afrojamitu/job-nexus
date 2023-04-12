@@ -14,7 +14,6 @@ import JobDetail from './components/JobDetail/JobDetail';
 import NotFound from './components/NotFound/NotFound';
 
 
-
 const router = createBrowserRouter([
   {
     path: '*',

@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import JobDetail from '../JobDetail/JobDetail';
 
-export const FeatureContext = createContext([]);
+
 
 const Home = () => {
     const categories = useLoaderData();
@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     useEffect(() => {
-        fetch('features.json')
+        fetch('/features.json')
             .then(res => res.json())
             .then(data => setFeatures(data))
     }, [])
@@ -53,9 +53,9 @@ const Home = () => {
 
                 <div className="my-12 grid grid-cols-1 md:grid-cols-2  justify-between gap-5 items-center">
 
-                    <FeatureContext.Provider value={[features, setFeatures]}>
-                        {
-                            features?.slice(0, showAll ? 6 : 4)?.map(feature => {
+                    
+                    {
+                            features.slice(0, showAll ? 6 : 4).map(feature => {
                                 return <FeaturedJobs
                                     key={feature.id}
                                     feature={feature}
@@ -63,7 +63,6 @@ const Home = () => {
                             })
 
                         }
-                    </FeatureContext.Provider>
 
                 </div>
 
