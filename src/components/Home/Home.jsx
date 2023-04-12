@@ -55,7 +55,7 @@ const Home = () => {
 
                     <FeatureContext.Provider value={[features, setFeatures]}>
                         {
-                            features.slice(0, showAll ? 6 : 4).map(feature => {
+                            features?.slice(0, showAll ? 6 : 4)?.map(feature => {
                                 return <FeaturedJobs
                                     key={feature.id}
                                     feature={feature}
