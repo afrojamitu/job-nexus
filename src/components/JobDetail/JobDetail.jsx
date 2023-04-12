@@ -1,16 +1,20 @@
 import React, { useContext } from 'react';
 import NewBanner from '../NewBanner/NewBanner';
-import { FeatureContext } from '../Home/Home';
+import { FeatureContext } from '../Home/Home'
 
 const JobDetail = () => {
 
-    const [features, setFeatures] = useContext(FeatureContext)
+    const [features, setFeatures] = useContext(FeatureContext);
+    
     console.log(features)
 
     return (
         <div>
             <NewBanner></NewBanner>
-            <h1>Hello its detail page</h1>
+
+            <h1>Job detail page</h1>
+
+            
         </div>
     );
 };

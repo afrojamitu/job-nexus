@@ -10,7 +10,7 @@ const Banner = () => {
                 <button className='bg-gradient-to-r from-indigo-500 to-purple-600 py-3 px-8 rounded-lg text-white font-bold hover:scale-105 mb-8' style={{transition: '.5s'}}>Get Started</button>
             </div>
             <div className='md:w-[1100px]'>
-                <img src="/public/images/P3OLGJ1 copy 1.png" alt="" />
+                <img src="https://i.ibb.co/WVdzgvZ/P3-OLGJ1-copy-1.png" alt="" />
             </div>
         </div>
         </div>

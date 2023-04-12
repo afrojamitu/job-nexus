@@ -10,9 +10,7 @@ export const FeatureContext = createContext([]);
 const Home = () => {
     const categories = useLoaderData();
     const [features, setFeatures] = useState([]);
-    const [showAll, setShowAll] = useState(false)
-
-
+    const [showAll, setShowAll] = useState(false);
 
     const handleShowAll = () => {
         setShowAll(true)
@@ -74,13 +72,7 @@ const Home = () => {
                         !showAll && <button onClick={handleShowAll} className='bg-gradient-to-r from-indigo-500 to-purple-600 py-1 px-3 md:py-2 md:px-6 rounded text-white font-bold hover:scale-105' style={{ transition: '.5s' }}>See More</button>
                     }
                 </div>
-
-                
-
             </div>
-
-
-
         </div>
     );
 };
