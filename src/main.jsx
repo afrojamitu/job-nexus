@@ -10,6 +10,8 @@ import Statistics from './components/Statistics/Statistics';
 import Home from './components/Home/Home';
 import ApliedJobs from './components/Aplied-Jobs/ApliedJobs';
 import Blog from './components/Blog/Blog';
+import JobDetail from './components/JobDetail/JobDetail';
+import NotFound from './components/NotFound/NotFound';
 
 
 
@@ -28,12 +30,20 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>
       },
       {
+        path: '/job-detail',
+        element: <JobDetail></JobDetail>,
+      },
+      {
         path: '/aplied-jobs',
         element: <ApliedJobs></ApliedJobs>
       },
       {
         path: '/blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '*',
+        element: <NotFound></NotFound>
       }
     ]
   }

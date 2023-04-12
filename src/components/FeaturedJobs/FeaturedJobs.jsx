@@ -1,5 +1,6 @@
 import React from 'react';
 import { CurrencyDollarIcon,MapPinIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const FeaturedJobs = ({feature}) => {
     const {logo, job_title, company, location, salary} = feature;
@@ -21,7 +22,9 @@ const FeaturedJobs = ({feature}) => {
                     Salary: {salary}</p>
                 </div>
 
+                <Link to='/job-detail'>
                 <button className='bg-gradient-to-r from-indigo-500 to-purple-600 py-1 px-3 md:py-2 md:px-6 rounded text-white font-bold hover:scale-105' style={{transition: '.5s'}}>View Detail</button>
+                </Link>
             </div>
 
             
