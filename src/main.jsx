@@ -17,6 +17,10 @@ import NotFound from './components/NotFound/NotFound';
 
 const router = createBrowserRouter([
   {
+    path: '*',
+    element: <NotFound></NotFound>
+  },
+  {
     path: '/',
     element:  <Job></Job>,
     children: [
@@ -40,14 +44,12 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
-      },
-      {
-        path: '*',
-        element: <NotFound></NotFound>
       }
+      
     ]
   }
 ])
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
