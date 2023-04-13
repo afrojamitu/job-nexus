@@ -1,26 +1,29 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import JobCategory from '../JobCategory/JobCategory';
 import Banner from '../Banner/Banner';
 import { useLoaderData } from 'react-router-dom';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
-import JobDetail from '../JobDetail/JobDetail';
-
-
+import { useContext } from "react";
+import { FeatureContext } from "../../Contexts/FeatureContexts";
 
 const Home = () => {
     const categories = useLoaderData();
     const [features, setFeatures] = useState([]);
     const [showAll, setShowAll] = useState(false);
+    const { setJobs } = useContext(FeatureContext);
 
     const handleShowAll = () => {
         setShowAll(true)
     }
 
     useEffect(() => {
-        fetch('/features.json')
-            .then(res => res.json())
-            .then(data => setFeatures(data))
-    }, [])
+        fetch("/features.json")
+          .then((res) => res.json())
+          .then((data) => {
+            setFeatures(data);
+            setJobs(data);
+          });
+      }, []);
 
     return (
         <div>
@@ -31,7 +34,6 @@ const Home = () => {
             </div>
             <div className="w-9/12 mx-auto my-20 grid grid-cols-2 md:grid-cols-4 justify-between gap-5 items-center">
 
-
                 {
                     categories.map(category => {
                         // console.log(category.name)
@@ -41,7 +43,6 @@ const Home = () => {
                         ></JobCategory>
                     })
                 }
-
 
             </div>
 

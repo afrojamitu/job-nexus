@@ -12,6 +12,7 @@ import ApliedJobs from './components/Aplied-Jobs/ApliedJobs';
 import Blog from './components/Blog/Blog';
 import JobDetail from './components/JobDetail/JobDetail';
 import NotFound from './components/NotFound/NotFound';
+import FeatureContextProvider from "./Contexts/FeatureContexts";
 
 
 const router = createBrowserRouter([
@@ -26,14 +27,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('category.json')
+        loader: () => fetch('/category.json')
       },
       {
         path: '/statistics',
         element: <Statistics></Statistics>
       },
       {
-        path: '/job-detail',
+        path: '/job-detail/:id',
         element: <JobDetail></JobDetail>,
       },
       {
@@ -53,6 +54,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <FeatureContextProvider>
+      <RouterProvider router={router} />
+    </FeatureContextProvider>
   </React.StrictMode>,
 )

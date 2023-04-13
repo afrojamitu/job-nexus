@@ -1,15 +1,16 @@
-import React, { createContext } from 'react';
-
+import React, { createContext } from "react";
+import { useState } from "react";
 
 export const FeatureContext = createContext([]);
-const FeatureContexts = ({children}) => {
-    return (
-        <div>
-            <FeatureContext.Provider value={[features, setFeatures]}>
-                        {children}
-                        </FeatureContext.Provider>
-        </div>
-    );
+
+const FeatureContextProvider = ({ children }) => {
+  const [jobs, setJobs] = useState([]);
+
+  return (
+    <FeatureContext.Provider value={{ jobs, setJobs }}>
+      {children}
+    </FeatureContext.Provider>
+  );
 };
 
-export default FeatureContexts;
+export default FeatureContextProvider;

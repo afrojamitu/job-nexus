@@ -1,6 +1,6 @@
 [
     {
-        "id": 101,
+        "id": 843853,
         "company": "Google LLC",
         "job_title": "Technical Database Engineer",
         "logo": "https://i.ibb.co/sbVQR2f/google-1-1-1.png",
@@ -16,7 +16,7 @@
         "email": "google@gmail.com"
     },
     {
-        "id": 102,
+        "id": 2378435,
         "company": "Netflix",
         "job_title": "Senior Product Designer",
         "logo": "https://i.ibb.co/nrW95ZP/netflix-4-1.png",
@@ -26,13 +26,13 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "requirements": "Bachelor degree to complete any reputational university.",
         "experience": "2-3 Years in this field.",
-        "job_location": "On site",
+        "job_location": "On-site",
         "time": "Part time",
         "phone": "01723454564",
         "email": "netflix@gmail.com"
     },
     {
-        "id": 103,
+        "id": 9575747,
         "company": "Tesla",
         "job_title": "Software Engineer",
         "logo": "https://i.ibb.co/WFF2h9b/tesla-9-1.png",
@@ -48,7 +48,7 @@
         "email": "tesla@gmail.com"
     },
     {
-        "id": 104,
+        "id": 5634594,
         "company": "AirBnb",
         "job_title": "Senior Developer",
         "logo": "https://i.ibb.co/25ngyDd/Group-10021.png",
@@ -58,16 +58,16 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "requirements": "Bachelor degree to complete any reputational university.",
         "experience": "2-3 Years in this field.",
-        "job_location": "On site",
+        "job_location": "On-site",
         "time": "Full time",
         "phone": "01723454564",
         "email": "airbnb@gmail.com"
     },
     {
-        "id": 105,
+        "id": 4398598,
         "company": "Google LLC",
-        "job_title": "Technical Database Engineer",
-        "logo": "/public/images/google-1-1 1.png",
+        "job_title": "Full Stack Developer",
+        "logo": "https://i.ibb.co/sbVQR2f/google-1-1-1.png",
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
         "description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
@@ -80,9 +80,9 @@
         "email": "google@gmail.com"
     },
     {
-        "id": 106,
+        "id": 6459293,
         "company": "Netflix",
-        "job_title": "Technical Database Engineer",
+        "job_title": "Frontend Developer",
         "logo": "https://i.ibb.co/nrW95ZP/netflix-4-1.png",
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
@@ -90,7 +90,7 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "requirements": "Bachelor degree to complete any reputational university.",
         "experience": "2-3 Years in this field.",
-        "job_location": "Remote",
+        "job_location": "On-site",
         "time": "Full time",
         "phone": "01723454564",
         "email": "google@gmail.com"
