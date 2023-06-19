@@ -3,7 +3,7 @@ import NewBanner from '../NewBanner/NewBanner';
 
 const Blog = () => {
     return (
-        <div>
+        <div className='text-slate-200'>
             <NewBanner></NewBanner>
             <div className='w-9/12 mx-auto my-12'>
                 <h2 className='text-3xl font-semibold'>1. When should you use context API?</h2>

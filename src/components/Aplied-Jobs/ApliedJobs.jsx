@@ -15,10 +15,10 @@ const ApliedJobs = () => {
     const onSiteJobs = jobs.filter(job => job.job_location === 'On-site');
 
     return (
-        <div>
+        <div className='text-slate-200'>
             <NewBanner></NewBanner>
-            <div className='flex justify-end w-9/12 mx-auto mt-8'>
-                <select name="Filter" id="" className='py-2 px-3 bg-teal-50 border-2' onChange={handleFilterChange}>
+            <div className='flex justify-end w-9/12 mx-auto mt-10'>
+                <select name="Filter" id="" className='py-2 px-3 border-2 text-black' onChange={handleFilterChange}>
                     <option value="">Filter</option>
                     <option value="remote">Remote</option>
                     <option value="on-site">On Site</option>

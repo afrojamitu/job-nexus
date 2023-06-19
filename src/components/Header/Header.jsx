@@ -7,7 +7,7 @@ const Header = () => {
     const [open, setOpen] = useState(false)
 
     return (
-        <div className='bg-gradient-to-r from-teal-50 to-slate-50'>
+        <div className='text-white'>
             <nav className='flex justify-between items-center w-9/12 mx-auto py-5'>
                 
             <Link to="/"><h2 className='text-2xl md:text-3xl font-bold'>Job<span className='text-purple-600 text-3xl md:text-4xl'>N</span>exus</h2></Link>
@@ -21,7 +21,7 @@ const Header = () => {
             
             </div>
 
-            <ul className={`md:flex gap-5 items-center absolute md:static duration-500 p-5 md:bg-teal-50 bg-white mr-5 rounded-lg ${open ? 'top-16' : '-top-40'}`}>
+            <ul className={`md:flex gap-5 items-center absolute md:static duration-500 p-5 mr-5 rounded-lg ${open ? 'top-16' : '-top-40'}`}>
                 
                 <li><Link to="/statistics" className="hover:text-purple-600" style={{transition: '.5s'}}>Statistics</Link></li>
                 <li><Link to="/aplied-jobs" className="hover:text-purple-600" style={{transition: '.5s'}}>Aplied Jobs</Link></li>

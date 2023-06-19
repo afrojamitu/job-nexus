@@ -13,7 +13,7 @@ const FeaturedJobs = ({ feature }) => {
 
     return (
         <div>
-            <div className="h-full p-8 border rounded-lg">
+            <div className="h-full text-white p-8 border rounded-lg">
                 <img className="w-20 mb-3" src={logo} alt="" />
                 <h3 className="text-2xl font-bold mb-2">{job_title}</h3>
                 <p className="text-lg mb-2">{company}</p>

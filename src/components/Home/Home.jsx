@@ -5,6 +5,9 @@ import { useLoaderData } from 'react-router-dom';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import { useContext } from "react";
 import { FeatureContext } from "../../Contexts/FeatureContexts";
+import About from '../About/About';
+import MiddleBanner from '../MiddleBanner/MiddleBanner';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     const categories = useLoaderData();
@@ -28,7 +31,8 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="my-20">
+            <About></About>
+            <div className="my-20 text-white">
                 <h2 className="text-center text-3xl md:text-4xl mb-4 font-bold">Job Category List</h2>
                 <p className="text-center text-lg">Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
@@ -46,7 +50,7 @@ const Home = () => {
 
             </div>
 
-            <div className='w-9/12 mx-auto my-20'>
+            <div className='w-9/12 mx-auto my-20 text-white'>
                 <div className="">
                     <h2 className="text-center text-3xl md:text-4xl mb-4 font-bold">Featured Jobs</h2>
                     <p className="text-center text-lg">Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -73,6 +77,9 @@ const Home = () => {
                     }
                 </div>
             </div>
+
+            <MiddleBanner></MiddleBanner>
+            <Contact></Contact>
         </div>
     );
 };

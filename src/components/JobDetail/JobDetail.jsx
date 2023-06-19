@@ -43,7 +43,7 @@ const JobDetail = () => {
 
       <div className="w-9/12 mx-auto my-16 flex flex-col md:flex-row gap-8">
         {/* details */}
-        <div className="flex flex-col gap-5 md:w-[60%]">
+        <div className="flex flex-col gap-5 md:w-[60%] text-slate-300">
           <p className="text-lg"><span className="font-bold">Job Description: </span>{job.description}</p>
           <p className="text-lg"><span className="font-bold">Responsibility: </span>{job.responsibility}</p>
           <p className="text-lg"><span className="font-bold">Educational Requirements: </span>{job.requirements}</p>
