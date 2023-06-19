@@ -10,15 +10,15 @@ const Contact = () => {
                         <div className="card-body">
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text text-slate-300 text-lg font-semibold">Name</span>
-                                </label>
-                                <input type="text" placeholder="Name" className="input input-bordered rounded text-black" />
-                            </div>
-                            <div className="form-control">
-                                <label className="label">
                                     <span className="label-text text-slate-300 text-lg font-semibold">Email</span>
                                 </label>
                                 <input type="text" placeholder="Email" className="input input-bordered rounded text-black" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-slate-300 text-lg font-semibold">Resume</span>
+                                </label>
+                                <input type="file" className="file-input file-input-bordered text-slate-500" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
@@ -28,12 +28,12 @@ const Contact = () => {
                             </div>
                             
                             <div className="form-control mt-6">
-                                <button className='bg-gradient-to-r from-indigo-500 to-purple-600 py-1 px-3 md:py-3 md:px-8 rounded text-white font-bold hover:scale-105' style={{transition: '.5s'}}>SEND MESSAGE</button>
+                                <button className='bg-gradient-to-r from-indigo-500 to-purple-600 py-1 px-3 md:py-3 md:px-8 rounded text-white font-bold hover:scale-105' style={{transition: '.5s'}}>SEND</button>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="text-center text-slate-200 lg:text-left">
+                    <div className="text-center text-slate-200 lg:text-left pt-5">
                         <h1 className="text-3xl font-bold">Send Message!</h1>
                         <p className="py-3">Our advanced platform seamlessly connects job seekers with a global network of employers, providing access to a wide range of industries and job opportunities. Utilize our cutting-edge technology to streamline your job search and secure your dream job with confidence.</p>
                         <img className='h-64' src="https://i.ibb.co/GPMnDKQ/Screenshot-72-removebg-preview.png" alt="" />
