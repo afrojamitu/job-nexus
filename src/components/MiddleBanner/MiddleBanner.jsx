@@ -4,8 +4,8 @@ import './MiddleBanner.css'
 const MiddleBanner = () => {
     return (
         <div className='text-white middle-banner h-[500px] flex items-center mb-10'>
-            <div className='bg-black opacity-70 p-16 w-3/4 mx-auto'>
-            <h1 className="text-5xl text-center font-bold">Make a Difference with Your Online Resume!</h1>
+            <div className='bg-black opacity-70 p-8 md:p-16 w-3/4 mx-auto'>
+            <h1 className="md:text-5xl text-2xl text-center font-bold">Make a Difference with Your Online Resume!</h1>
             <p className='text-lg text-center py-5'>Your resume in minutes with JobHunt resume assistant is ready!</p>
 
             <div className='text-center'>

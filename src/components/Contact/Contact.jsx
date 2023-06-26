@@ -5,7 +5,7 @@ const Contact = () => {
         <div className='md:w-9/12 mx-auto my-16'>
         <h1 className="text-5xl text-white text-center font-bold pb-3">GET IN TOUCH!</h1>
             <div className="hero">
-                <div className="grid grid-cols-2 gap-5 items-center">
+                <div className="grid md:grid-cols-2 gap-5 items-center">
                     <div className="card flex-shrink-0 w-full text-slate-200">
                         <div className="card-body">
                             <div className="form-control">

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className='md:w-9/12 md:mx-auto mx-5 my-16'>
-            <div className='grid grid-cols-2 gap-10'>
+            <div className='flex flex-col-reverse md:flex-row gap-10'>
                 <div className='grid grid-cols-2 gap-3'>
                     {/* for images */}
                     <img className='w-full rounded h-full' src="https://i.ibb.co/Y8k9tRX/Delivery-URL-Better-Up-office-politics-ARTICLE-2.webp" alt="" />
